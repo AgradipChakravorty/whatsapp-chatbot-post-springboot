@@ -21,24 +21,29 @@ A simple WhatsApp chatbot backend simulation built with **Java** and **Spring Bo
 
 ## Project Structure
 
-WhatsappChatbotSimulation/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/
-        │       └── example/
-        │           └── WhatsappChatbotSimulation/
-        │               ├── Controller/
-        │               │   └── ChatController.java
-        │               │
-        │               ├── DTO/
-        │               │   ├── MessageRequest.java
-        │               │   └── MessageResponse.java
-        │               │
-        │               └── WhatsappChatbotSimulationApplication.java
+WhatsappChatbotSimulation
+│
+└── src
+    │
+    └── main
         │
-        └── resources/
+        ├── java
+        │   │
+        │   └── com.example.WhatsappChatbotSimulation
+        │       │
+        │       ├── Controller
+        │       │   └── ChatController.java
+        │       │
+        │       ├── DTO
+        │       │   ├── MessageRequest.java
+        │       │   └── MessageResponse.java
+        │       │
+        │       └── WhatsappChatbotSimulationApplication.java
+        │
+        └── resources
+            │
             └── application.properties
+            
 ##  How to Run
 
 ### Prerequisites
