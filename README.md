@@ -21,19 +21,24 @@ A simple WhatsApp chatbot backend simulation built with **Java** and **Spring Bo
 
 ## Project Structure
 
-src/
-├── main/
-│   ├── java/
-│   │   └── com/example/WhatsappChatbotSimulation/
-│   │       ├── Controller/
-│   │       │   └── ChatController.java
-│   │       ├── DTO/
-│   │       │   ├── MessageRequest.java
-│   │       │   └── MessageResponse.java
-│   │       └── WhatsappChatbotSimulationApplication.java
-│   └── resources/
-│       └── application.properties
-
+WhatsappChatbotSimulation/
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── example/
+        │           └── WhatsappChatbotSimulation/
+        │               ├── Controller/
+        │               │   └── ChatController.java
+        │               │
+        │               ├── DTO/
+        │               │   ├── MessageRequest.java
+        │               │   └── MessageResponse.java
+        │               │
+        │               └── WhatsappChatbotSimulationApplication.java
+        │
+        └── resources/
+            └── application.properties
 ##  How to Run
 
 ### Prerequisites
@@ -120,12 +125,12 @@ curl -X POST http://localhost:8080/webhook \
 
 This project fulfills the following requirements:
 
-- [x] Create a REST API endpoint (webhook)
-- [x] Accept POST requests
-- [x] Accept JSON input simulating WhatsApp messages
-- [x] Respond with predefined replies (Hi → Hello, Bye → Goodbye)
-- [x] Log all incoming messages
-- [x] Deploy locally and share screenshots
+-  Create a REST API endpoint (webhook)
+-  Accept POST requests
+-  Accept JSON input simulating WhatsApp messages
+-  Respond with predefined replies (Hi → Hello, Bye → Goodbye)
+-  Log all incoming messages
+-  Deploy locally and share screenshots
 
 ## Author
 
